@@ -17,6 +17,7 @@ public class Producer implements Runnable {
 			while(element < 20) {
 				System.out.println("将要放进去的元素是："+element);
 				blockingQueue.put(element++);
+
 			}
 		} catch (Exception e) {
 			System.out.println("生产者在等待空闲空间的时候被打断了！");
