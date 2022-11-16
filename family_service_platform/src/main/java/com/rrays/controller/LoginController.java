@@ -8,16 +8,13 @@ import com.rrays.returnJson.ReturnObject;
 import com.rrays.returnJson.UserInfo;
 import com.rrays.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-
 @RestController
-@CrossOrigin(originPatterns = "*",methods = {},allowedHeaders = "*",allowCredentials = "true")
+//@CrossOrigin(originPatterns = "*",methods = {},allowedHeaders = "*",allowCredentials = "true")
 public class LoginController {
 
     @Autowired
