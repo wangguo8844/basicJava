@@ -1,5 +1,7 @@
 package main.rrays.Arithmetic;
 
+import org.springframework.web.bind.annotation.GetMapping;
+
 import java.sql.Array;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -13,11 +15,11 @@ public class Problem2 {
 
         int k;
         String s;
-        int n;
         Scanner scanner1 = new Scanner(in);
         s=scanner1.nextLine();
         Scanner scanner = new Scanner(in);
         k=scanner.nextInt();
+        int l = s.length();
         char limit= (char) (k+96);
         char[] test=new char[s.length()];
         char[] chars = s.toCharArray();

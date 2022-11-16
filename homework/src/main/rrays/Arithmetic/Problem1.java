@@ -23,7 +23,6 @@ public class Problem1 {
                 sum=(i+j)*(j-i+1)/2;
                 if(sum==n){
                     count++;
-
                 }
                 else if(sum>n){
                     break;
